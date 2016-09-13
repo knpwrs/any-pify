@@ -4,7 +4,9 @@
   "description": "A wrapper to use pify with any-promise.",
   "main": "lib/index.js",
   "scripts": {
-    "lint": "eslint lib"
+    "lint": "eslint lib test",
+    "test": "ava test/*.test.js",
+    "posttest": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -26,8 +28,10 @@
     "pify": "^2.3.0"
   },
   "devDependencies": {
+    "ava": "^0.16.0",
     "eslint": "^3.5.0",
     "eslint-config-airbnb-base": "^7.1.0",
-    "eslint-plugin-import": "^1.15.0"
+    "eslint-plugin-import": "^1.15.0",
+    "pinkie": "^2.0.4"
   }
 }
