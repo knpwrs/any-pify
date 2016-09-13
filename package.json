@@ -1,0 +1,33 @@
+{
+  "name": "any-pify",
+  "version": "0.0.0",
+  "description": "A wrapper to use pify with any-promise.",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knpwrs/any-pify.git"
+  },
+  "keywords": [
+    "promise",
+    "promisify",
+    "pify"
+  ],
+  "author": "Kenneth Powers <ken@kenpowers.net> (http://knpw.rs)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/knpwrs/any-pify/issues"
+  },
+  "homepage": "https://github.com/knpwrs/any-pify#readme",
+  "dependencies": {
+    "any-promise": "^1.3.0",
+    "pify": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.5.0",
+    "eslint-config-airbnb-base": "^7.1.0",
+    "eslint-plugin-import": "^1.15.0"
+  }
+}
