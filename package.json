@@ -31,7 +31,7 @@
     "ava": "^0.16.0",
     "eslint": "^3.5.0",
     "eslint-config-airbnb-base": "^8.0.0",
-    "eslint-plugin-import": "^1.15.0",
+    "eslint-plugin-import": "^2.2.0",
     "pinkie": "^2.0.4"
   }
 }
