@@ -1,5 +1,7 @@
 # any-pify
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/knpwrs/any-pify.svg)](https://greenkeeper.io/)
+
 Simply [`pify`] pre-loaded with [`any-promise`].
 
 ## Usage
