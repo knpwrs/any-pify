@@ -28,7 +28,7 @@
     "pify": "^3.0.0"
   },
   "devDependencies": {
-    "ava": "^0.20.0",
+    "ava": "^0.22.0",
     "eslint": "^4.1.0",
     "eslint-config-airbnb-base": "^11.1.0",
     "eslint-plugin-import": "^2.2.0",
